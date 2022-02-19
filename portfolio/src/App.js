@@ -1,32 +1,33 @@
-import logo from './logo.svg';
+import logo from './planeta.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+	  <>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+      </header>
+	  <div className="App">
+	  <p className="App-link">
           Gabriel Nestor Brufau
-        </p>
-        <a
+          </p>
+	  <a
           className="App-link"
           href="https://github.com/GabrielBrufau"
           target="_blank"
           rel="noopener noreferrer"
         >
-	  github
-	  </a>
-	  <br/>
-	  <p>
-          Programador independiente de código abierto con un año de experiencia
-	  en industrias de tecnología especializado en crear y ejecutar apps exitosas
-	  con una documentación, estructura y buenas prácticas que permitan integrar
-	  facilmente nuevas características funcionalidades, así también a nuevos desarrolladores
-	  al equipo para el mantenimiento y creación del código.
+          github
+          </a>
+          <br/>
+          <p className="App-link">
+        	La vida es como una caída libre lo mejor que podemos hacer es disfrutar este momento.   
+        
+       
         </p>
-      </header>
-    </div>
+
+	  </div>
+	  </>
   );
 }
 
