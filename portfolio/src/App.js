@@ -7,16 +7,24 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Gabriel Nestor Brufau
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/GabrielBrufau"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+	  github
+	  </a>
+	  <br/>
+	  <p>
+          Programador independiente de código abierto con un año de experiencia
+	  en industrias de tecnología especializado en crear y ejecutar apps exitosas
+	  con una documentación, estructura y buenas prácticas que permitan integrar
+	  facilmente nuevas características funcionalidades, así también a nuevos desarrolladores
+	  al equipo para el mantenimiento y creación del código.
+        </p>
       </header>
     </div>
   );
