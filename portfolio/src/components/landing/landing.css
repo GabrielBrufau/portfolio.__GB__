@@ -1,0 +1,16 @@
+.landing{
+	/*body*/
+	margin:0;
+	padding:0;
+	box-sizing:content-box;
+	/*landing*/
+	background-color:#772953;
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:50px;
+}
+.landing ion-icon{
+	color:#FF0000;
+}
